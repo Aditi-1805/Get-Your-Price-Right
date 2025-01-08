@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.bg-dark{
+    background-color:midnightblue !important;
+}
+
+.mt-5{
+    margin-top: auto;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.form-group {
+    width: 80%; /* Adjust width as needed */
+    text-align: center;
+    margin-bottom: 20px;
+}
+.card {
+    margin: auto;
+    margin-top: 60px;
+    padding: 20px;
+}
+.card-header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.custom-btn {
+    background: linear-gradient(to right, #4facfe, #00f2fe); /* Blue gradient */
+    color: white; /* Text color */
+    font-weight: bold;
+    font-size: calc(1rem + 0.3vw); /* Responsive font size */
+    padding: auto; 
+    border: none; /* Remove border */
+    border-radius: 20px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    display: flex; /* Flexbox for centering */
+    align-items: center; /* Vertically center text and icon */
+    justify-content: center; /* Horizontally center text and icon */
+    width: 100%; /* Full width of the parent container */
+    max-width: 400px; /* Limit the maximum width */
+    margin: 10px auto; /* Center horizontally */
+    transition: all 0.3s ease-in-out; /* Smooth hover effect */
+    white-space: normal; /* Allows the text to wrap */
+    word-wrap: break-word; /* Ensures long words are broken */
+    text-align: center;
+  }
+
+  .custom-btn:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+  }
